@@ -15,8 +15,8 @@ import java.util.Map;
 @RequestMapping(value = "/customer")
 public class CustomerController {
 
-    @Autowired
-    CustomerRepository customerRepository;
+
+    private CustomerRepository customerRepository;
 
     @PostMapping("/")
     public @ResponseBody

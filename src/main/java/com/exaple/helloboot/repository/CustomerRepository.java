@@ -12,8 +12,8 @@ public interface CustomerRepository extends JpaRepository<Customer,Long> {
 
     public List<Customer> findByName(String name);
     public List<Customer> findByPhone(String phone);
-    //like검색도 가능
-    public List<Customer> findByNameLike(String keyword);
+//    //like검색도 가능
+//    public List<Customer> findByNameLike(String keyword);
 
 
 }
